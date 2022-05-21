@@ -14,7 +14,7 @@ spec:
       containers:
       - name: auth
         imagePullPolicy: IfNotPresent
-        image: wouterweemaes/chatappdevops:latest
+        image: wouterweemaes/chatappdevops:auth
         ports:
           - containerPort: 3000
             name: http-web-svc
